@@ -9,7 +9,7 @@
 		<meta content="Developer-autodesk.GitHub.io : The entry point of Autodesk web services" name="description">
 		<!--bootstrap stylesheet-->
 		<!-- icons-->
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -40,9 +40,7 @@
 								<div class="navbar-header">
 									<a class="navbar-brand" href="https://developer.autodesk.com/"><img width="160px;" src="img/Autodesk_logo.png" style="padding: 20px;"></a>
 								</div>
-								<ul class="nav navbar-nav navbar-right">
-									<li><a href="https://github.com/Developer-Autodesk">View on GitHub<i class="fa fa-github-alt fa-fw"></i></a></li>
-								</ul>
+								
 							</div>
 						</div>
 					</div>
@@ -57,16 +55,12 @@
 					<div class="page-header content-header app-content-header api-detail-header view-and-data-api" id="title">
 						<div class="container app-container">
 							<div class="col-xs-12 col-sm-6 col-md-9 col-lg-9 app-title-container">
-								<h1 id="view-and-data-title">View and Data API Beta</h1>
+								<h1 id="view-and-data-title">Autodesk 360 Web Services</h1>
 							</div>
 							<!--<p>Embedding vibrant 3D graphics in a Web Browser, 
 								Support for almost 100 formats, 
 								fast streaming large 2D and 3D models </p>-->
-                            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 app-button-container">
-								<p class="bs-component">
-									<a href="https://developer.autodesk.com/" class="btn app-btn app-btn-lg app-btn-primary create-app-btn pull-right">Create an App<span class="bg-icon size-21"><i class="icon ion-chevron-right"></i></span></a>
-								</p>
-							</div>
+                            
 						</div>
 					</div>
 				</div>
@@ -82,15 +76,15 @@
 								<div data-clampedwidth="#nav-parent" data-spy="affix" data-offset-top="200" class="panel panel-default app-panel-default app-sidenav-panel">
 									<div class="navbar-collapse collapse navbar-responsive-collapse panel-body app-panel-body app-sidenav-body" role="complementary">
                                         <ul class="nav nav-pills nav-stacked app-sidenav">
-                                            <li role="presentation" class="active"><a href="#what-does-it-do" class="first-child">What Does it Do?</a></li>
+                                            <li role="presentation" class="active"><a href="#the autodesk-platform" class="first-child">The Autodesk Platform</a></li>
                                             
-                                            <li role="presentation"><a href="#play-with-api" class="first-child">Play With the APIs</a></li>
+                                            <li role="presentation"><a href="#autocad-io" class="first-child">AutoCAD I/O</a></li>
                                             
-                                            <li role="presentation"><a href="#template-project" class="first-child">Sample Code</a></li>
+                                            <li role="presentation"><a href="#bim360" class="first-child">BIM 360</a></li>
                                             
-                                            <li role="presentation"><a href="http://forums.autodesk.com/t5/view-and-data-api/bd-p/95" class="first-child">Forum</a></li>
-                                            <li role="presentation"><a href="http://adndevblog.typepad.com/cloud_and_mobile/" class="first-child">Blog</a></li>
-                                            <li role="presentation"><a href="https://developer.autodesk.com/api/view-and-data-api/#api-features" class="first-child">Documentation</a></li>
+                                            <li role="presentation"><a href="#fusion360">Fusion 360</a></li>
+                                            <li role="presentation"><a href="#recap" class="first-child">ReCap Photo</a></li>
+                                            <li role="presentation"><a href="#view-and-data" class="first-child">View and Data API</a></li>
                                             
                                         </ul>
 									</div>
@@ -106,14 +100,14 @@
 									<div class="navbar-collapse collapse navbar-responsive-collapse panel-body app-panel-body app-sidenav-body" role="complementary">
 										<div class="col-lg-12">
 											<ul class="nav nav-pills nav-stacked app-sidenav">
-												<li role="presentation" class="active"><a href="#what-does-it-do" class="first-child" data-toggle="collapse" data-target=".navbar-responsive-collapse">What Does it Do?</a></li>
+												<li role="presentation" class="active"><a href="#the-autodesk-platform" class="first-child" data-toggle="collapse" data-target=".navbar-responsive-collapse">The Autodesk Platform</a></li>
                                                 
-												<li role="presentation"><a href="#play-with-api" data-toggle="collapse" data-target=".navbar-responsive-collapse">Play With the APIs</a></li>
+												<li role="presentation"><a href="#autocad-io" data-toggle="collapse" data-target=".navbar-responsive-collapse">AutoCAD I/O</a></li>
 												
-												<li role="presentation"><a href="#template-project" data-toggle="collapse" data-target=".navbar-responsive-collapse">Sample Code</a></li>
+												<li role="presentation"><a href="#bim360" data-toggle="collapse" data-target=".navbar-responsive-collapse">BIM 360</a></li>
 												
-												<li role="presentation"><a href="#support" data-toggle="collapse" data-target=".navbar-responsive-collapse">Forum</a></li>
-                                                <li role="presentation"><a href="http://adndevblog.typepad.com/cloud_and_mobile/" data-toggle="collapse" data-target=".navbar-responsive-collapse">Blog</a></li><li role="presentation"><a href="https://developer.autodesk.com/api/view-and-data-api/#api-features" data-toggle="collapse" data-target=".navbar-responsive-collapse">Documentation</a></li>
+												<li role="presentation"><a href="#fusion360" data-toggle="collapse" data-target=".navbar-responsive-collapse">Fusion 360</a></li>
+                                                <li role="presentation"><a href="#recap" data-toggle="collapse" data-target=".navbar-responsive-collapse">ReCap Photo</a></li><li role="presentation"><a href="#view-and-data" data-toggle="collapse" data-target=".navbar-responsive-collapse">View and Data API</a></li>
                                                 
                                             </ul>
 										</div>
@@ -126,364 +120,89 @@
 								<div class="panel panel-default app-panel-default">
 									<div class="panel-body app-panel-body app-api-doc">
                                         <div class="app-api-section">
-                                            <div id="what-does-it-do" class="app-api-section-heading">
-                                                <h2 class="app-api-section-title first-child">What exactly does the View and Data API Beta do?</h2>
+                                            <div id="the-autodesk-platform" class="app-api-section-heading">
+                                                <h2 class="app-api-section-title first-child">The Autodesk Platform</h2>
                                             </div>
-                                            <p>The View and Data API Beta enables web developers to very easily display 3D (and 2D) models in a WebGL-enabled browser or smartphone app. If you've got a model you've created using some kind of design software, then you can probably display it using this API.</p>
-                                            <div id="dropAreaContainer" style="width: 280px"></div>
-                                        </div>
+                                            <p>The Autodesk 360 Web Services platform is a set of Autodesk Cloud Services, APIs and SDKs for developers to create the data, apps, experiences and services that power the future of making things.</p>
+                                            
                                         
                                         
-                                        <!-- start live demo -->
+                                        <!-- start AutoCAD I/O -->
                                         <div class="app-api-section">
                                             <div id="Overview" class="app-api-section-heading">
-                                               <h2 id="live-demo" class="app-api-section-title first-child">Play with it live</h2>
+                                               <h2 id="autocad-io" class="app-api-section-title first-child">AutoCAD I/O</h2>
                                             </div>
-                                            <p>Here are samples of the API's capability: play with it before you continue reading. Try the different buttons [Rotate, Explode, Annotate] to see their effect, Annotate will let you select components and create labels, once a label has been created, right-click on it to display a context menu "Delete" option .</p>
-
-                                            <div id="iframeWrapper" style="position: relative;">
-                                                <div id="loaderBackground"
-                                                     style="position: absolute; top: 0; left: 0; width:100%; height:100%;z-index:2; background-color:#FFFFFF"></div>
-                                                <div id="loader"
-                                                     class="loader"
-                                                     data-initialize="loader"
-                                                     style="position: absolute; top: 40%; left: 45%; width:50%; height:50%;z-index:3;"></div>
-
-                                                <iframe id="iFrame1"
-                                                        width='49%' height='400' frameborder='0' style="z-index:1"
-                                                        allowFullScreen webkitallowfullscreen mozallowfullscreen
-                                                        src='http://viewer.autodesk.io/node/gallery/embed?id=54464d43af600b5c0a87254a&extIds=_Autodesk.ADN.Viewing.Extension.GithubDemo&viewerConfig=%27{%22viewerType%22:%22Viewer3D%22}%27'>
-                                                </iframe>
-                                                <iframe id="iFrame2"
-                                                        width='49%' height='400' frameborder='0' style="z-index:1"
-                                                        allowFullScreen webkitallowfullscreen mozallowfullscreen
-                                                        src='http://viewer.autodesk.io/node/gallery/embed?id=5476efc783bdd31804754db5&extIds=_Autodesk.ADN.Viewing.Extension.GithubDemo&viewerConfig=%27{%22viewerType%22:%22Viewer3D%22}%27'>
-                                                </iframe>
+                                            <div>
+                                                <p>Build apps that transform and manipulate AutoCAD data files. Visit our <a href="http://www.xxx.com">AutoCAD I/O page on GitHub</a> to find out more.</p>
+                                                
                                             </div>
 
                                         </div>
 
-                                        <!-- end live demo -->
+                                        <!-- end AutoCAD I/O -->
+                                            
+                                       <!-- start BIM 360 -->
+                                        <div class="app-api-section">
+                                            <div id="Overview" class="app-api-section-heading">
+                                               <h2 id="bim360" class="app-api-section-title first-child">BIM 360</h2>
+                                            </div>
+                                            <div>
+                                                <p>Extend the capabilities of BIM 360 Glue and Field to transform the way Construction project data is collected, connected, visualized and managed in the cloud. Visit our <a href="http://bim360api.github.io">BIM 360 API page on GitHub</a> to find out more.</p>
+                                                
+                                            </div>
+
+                                        </div>
+
+                                        <!-- end BIM 360 -->
+                                            
+                                            
+                                            
+                                            
+                                      <!-- start Fusion 360 -->
+                                        <div class="app-api-section">
+                                            <div id="Overview" class="app-api-section-heading">
+                                               <h2 id="fusion360" class="app-api-section-title first-child">Fusion 360</h2>
+                                            </div>
+                                            <div>
+                                                <p>Develop scripts and add-ins for Fusion 360 - the next generation of 3D modeling software for CAD, CAM and CAE. Visit our <a href="http://autodeskfusion360.github.io/">Fusion 360 API page on GitHub</a> to find out more.</p>
+                                                
+                                            </div>
+
+                                        </div>
+
+                                        <!-- end Fusion 360 -->     
+                                            
+                                            
+                                      <!-- start ReCap Photo -->
+                                        <div class="app-api-section">
+                                            <div id="Overview" class="app-api-section-heading">
+                                               <h2 id="recap" class="app-api-section-title first-child">ReCap Photo</h2>
+                                            </div>
+                                            <div>
+                                                <p>Capture reality and bring it into your own applications by creating a textured mesh from a set of photos. Visit our <a href="http://developer-recap-autodesk.github.io/">Fusion 360 API page on GitHub</a> to find out more.</p>
+                                                
+                                            </div>
+
+                                        </div>
+
+                                        <!-- end ReCap Photo -->    
+                                            
+                                            
+                                      <!-- start View and Data -->
+                                        <div class="app-api-section">
+                                            <div id="Overview" class="app-api-section-heading">
+                                               <h2 id="view-and-data" class="app-api-section-title first-child">View and Data API</h2>
+                                            </div>
+                                            <div>
+                                                <p>Visualize designs and design data in your cloud apps – in a browser or on a smartphone. Visit our <a href="http://developer-autodesk.github.io/">View and Data API page on GitHub</a> to find out more.</p>
+                                                
+                                            </div>
+
+                                        </div>
+
+                                        <!-- end View and Data -->    
                                         
-                                        <!-- start play with api -->
-                                            <div class="app-api-section">
-                                                <div id="play-with-api" class="app-api-section-heading">
-                                                    <h2 class="app-api-section-title first-child">Play with the APIs</h2>
-                                                </div>
-                                                <p>The API comes in two parts -</p>
-                                                <ul>
-                                                    <li><strong>A (server-side) REST API</strong> that allows you to translate any of over 70 file formats into a common (JSON) file format. The data extracted from the original file is the geometry of every element in the model and the metadata that was attached to each of those model elements.</li>
-                                                    <li><strong>A (client-side) JavaScript API</strong> that simplifies displaying and interacting with a model that has been processed by the translator. The UI for the viewer defined by the API can be heavily customized, viewer actions can be automated (zoom, pan rotate, explode, etc), and callbacks are available for user-driven events (e.g. a mouse click on a specific model element, a change in camera position, etc).</li>
-                                                </ul>
-                                                <p>Play with the following live applications first to understand the server side REST API, practice some Client side JavaScript APIs, and then setup your first 3D model viewer web page with the utility live sample. Make sure you check the source code of these live samples.</p>
-                                                <br>
-                                                <div class="row">
-                                                    <div class="col-md-6 col-xs-12">
-                                                        <div class="">
-                                                            <h4 align="center">
-                                                                Learn the Server-side REST API
-                                                            </h4>
-                                                            <p align="center">A live quick start guide demonstrating the workflow of using View and Data API.</p>
-                                                        </div>
-                                                        <div class="">
-                                                            <div class="center">
-                                                                <a href="http://developer-autodesk.github.io/LmvQuickStart/" target="_blank">
-                                                                    <span class="fa-stack fa-5x">
-                                                                        <i class="fa fa-file-o fa-stack-2x"></i>
-                                                                        <i class="fa fa-clock-o fa-stack-1x"></i>
-                                                                    </span>
-                                                                </a>
-                                                            </div>
-                                                            <span class="btn-group pull-right">
-                                                                <br>
-                                                                <a class="btn btn-primary btn-large" href="http://developer-autodesk.github.io/LmvQuickStart/" target="_blank">Live Demo</a>
-                                                                <a class="btn btn-info btn-large" href="https://github.com/Developer-Autodesk/LmvQuickStart">Code</a>
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-6 col-xs-12">
-                                                        <div>
-                                                            <h4 align="center">
-                                                                Learn the Client-side JavaScript API
-                                                            </h4>
-                                                            <p align="center">A live sample demonstrating the usage of viewer client APIs.</p>
-                                                        </div>
-                                                        <div class="">
-                                                            <div class="center">
-                                                                <a href="http://developer-autodesk.github.io/LmvDbg/" target="_blank">
-                                                                    <span class="fa-stack fa-5x">
-                                                                        <i class="fa fa-file-o fa-stack-2x"></i>
-                                                                        <i class="fa fa-wrench fa-stack-1x"></i>
-                                                                    </span>
-                                                                </a>
-                                                            </div>
-                                                            <br>
-                                                            <span class="btn-group pull-right">
-                                                                <a class="btn btn-primary btn-large" href="http://developer-autodesk.github.io/LmvDbg/" target="_blank">Live Demo</a>
-                                                                <a class="btn btn-info btn-large" href="https://github.com/Developer-Autodesk/LmvDbg">Code</a>
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- end play with api -->
-												<!-- samples -->
-                                                <div class="app-api-section">
-                                                    <div id="live-sample" class="app-api-section-heading">
-                                                       <h2 class="app-api-section-title first-child">Live Sample</h2>
-                                                    </div>
-                                                    <p>As you've learned, to display your models/drawings in your website, you need to upload and translate them using the server-side REST API, and then embed the viewer into your webpage using the JavaScript API. Here are some more samples demonstrating the workflow of View and Data API. 
-                                                    </p>
-                                                    <div class="row">
-                                                        <div class="col-md-12">
-                                                            <div class="">
-                                                                <div class="">
-                                                                    <h4 align="center">JavaScript Sample</h4>
-                                                                    <p align="center">A comprehensive live sample in Node.js demonstrating the workflow and a lot extensions showing off what is doable with client-side JavaScript APIs.</p>
-                                                                </div>
-                                                                <div class="">
-                                                                    <p align="center">
-                                                                        <a href="http://viewer.autodesk.io/node/gallery/#/gallery" target="_blank">
-                                                                        <img class="img-responsive img-rounded" 
-                                                                            alt="model gallery sample in Javascript " 
-                                                                            height="539" 
-                                                                            src="images/sample-screenshot-javascript-gallery.PNG" width="890">
-                                                                        </a>
-                                                                    </p>
-                                                                    <span class="btn-group pull-right">
-                                                                    <a class="btn btn-primary btn-large" 
-                                                                        href="http://viewer.autodesk.io/node/gallery/#/gallery" target="_blank">Live Demo</a>
-                                                                    <a class="btn btn-info btn-large" 
-                                                                        href="https://github.com/Developer-Autodesk/workflow-gallery-view.and.data.api">
-                                                                    Code
-                                                                    </a>
-                                                                    <a class="btn btn-success btn-large" href="https://www.youtube.com/watch?v=SQJSuqRqiCg">
-                                                                    Video
-                                                                    </a>
-                                                                    </span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-												<!-- end of samples -->
-										
-												<!-- VR Experience -->
-												<div class="app-api-section" id="vr-experience">
-													<div id="what-does-it-do" class="app-api-section-heading">
-														<h2 class="app-api-section-title first-child">VR Experience</h2>
-													</div>
-														<div class="owl-carousel">
-															<div class="owl-vr"><a href="http://vr.autodesk.io/"><img src="images/vr/house.png"></a></div>
-															<div class="owl-vr"><a href="https://safe-reef-1847.herokuapp.com/stereo-voice2.html"><img src="images/vr/morgan.png"></a></div>
-															<div class="owl-vr"><a href="https://safe-reef-1847.herokuapp.com/stereo-voice2.html"><img src="images/vr/flyer-one.png"></a></div>
-															<div class="owl-vr"><a href="https://safe-reef-1847.herokuapp.com/stereo-voice2.html"><img src="images/vr/boat.png"></a></div>
-															<div class="owl-vr"><a href="https://safe-reef-1847.herokuapp.com/stereo-voice2.html"><img src="images/vr/differential.png"></a></div>
-															<div class="owl-vr"><a href="http://aupano.autodesk.com/panogl.html?url=panos/int"><img src="images/vr/angelapoovey.png"></a></div>
-															<div class="owl-vr"><a href="http://aupano.autodesk.com/panogl.html?url=panos/water1"><img src="images/vr/emmauelurbina.png"></a></div>
-															<div class="owl-vr"><a href="http://aupano.autodesk.com/turn.html?url=rccar2"><img src="images/vr/car-interactive.png"></a></div>
-															<div class="owl-vr"><a href="http://aupano.autodesk.com/turn.html?url=watch2"><img src="images/vr/watch-turnable.png"></a></div>
-														</div>
-												</div>
-											<!-- end of VR Experience -->
 
-												<!-- quick starts -->
-                                                <div class="app-api-section">
-                                                    <div id="template-project" class="app-api-section-heading">
-                                                        <h2 class="app-api-section-title first-child">Template Projects</h2>
-                                                    </div>
-                                                        <p>If you are in hurry, in a hackthon for example, and would like to try the viewer very quickly, you can skip the model uploading/translating process, use the following projects as template to start quickly.
-                                                        </p>
-                                                        <div class="col-md-10 col-md-offset-1">
-                                                            <div class="list-group">
-                                                                <a href="https://github.com/Developer-Autodesk/workflow-node.js-view.and.data.api" 
-                                                                    class="list-group-item">
-                                                                <i class="fa fa-file-code-o fa-2x pull-left"></i>
-                                                                JavaScript Node.js - Web <br>
-                                                                A Node.js sample template project, demonstrating the usage of JavaScript Library (see below).
-                                                                </a>
-                                                                <a href="https://github.com/Developer-Autodesk/tutorial-aspnet-view.and.data.api" 
-                                                                    class="list-group-item">
-                                                                <i class="fa fa-file-code-o fa-2x pull-left"></i>
-                                                                ASP.NET WebForm - Web <br>
-                                                                An ASP.NET sample template project written in C# and JavaScript. 
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                </div>
-												<!-- end quick starts -->
-                                                <!-- libraries -->
-                                                <div class="app-api-section">
-                                                    <div id="libraries" class="app-api-section-heading">
-                                                        <h2 class="app-api-section-title first-child">Libraries to make your life easier</h2>
-                                                    </div>
-                                                    <p>Here are some libraries which make your life easier. Your are welcome to use them in your project. And we encourage you help improve these libraries by forking and sending pull requests to make it better.</p>
-                                                    <div class="row">
-                                                        <div class="col-md-10 col-md-offset-1">
-                                                            <div class="list-group">
-                                                                <a href="https://github.com/Developer-Autodesk/library-javascript-view.and.data.api" 
-                                                                    class="list-group-item">
-                                                                <i class="fa fa-book fa-2x pull-left"></i>
-                                                                JavaScript Library
-                                                                <br>
-                                                                This is a high level JavaScript wrapper library for the Autodesk View and Data Rest API calls.
-                                                                </a>
-                                                                <a href="https://github.com/Developer-Autodesk/library-javascript-viewer-extensions" 
-                                                                    class="list-group-item">
-                                                                <i class="fa fa-book fa-2x pull-left"></i>JavaScript Extensions Library
-                                                                <br>
-                                                                A collection of JavaScript extensions for the viewer.
-                                                                </a>
-                                                                <a href="https://github.com/Developer-Autodesk/library-dotnet-view.and.data.api" 
-                                                                    class="list-group-item">
-                                                                <i class="fa fa-book fa-2x pull-left"></i>
-                                                                .NET Library
-                                                                <br>
-                                                                A REST API wrapper library for .NET applications and ASP.NET websites.
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!-- end libraries -->
-                                                <!-- other samples -->
-                                        <div class="app-api-section">
-                                            <div id="other-samples" class="app-api-section-heading">
-                                                <h2 class="app-api-section-title first-child">Other samples</h2>
-                                            </div>
-                                            <p>Some additional samples in various languages, demonstrating the workflow of view and data API.</p>
-                                                    <div class="row">
-                                                        <div class="col-md-10 col-md-offset-1">
-                                                            <div class="list-group">
-                                                                <a href="https://github.com/Developer-Autodesk/workflow-aspnet-webform-view.and.data.api" 
-                                                                    class="list-group-item">
-                                                                <i class="fa fa-file-code-o fa-2x pull-left"></i>
-                                                                .NET Sample - Web<br>
-                                                                A simple live sample demonstrating the worklfow of uploading, registering and embedding a 2D/3D model into a web page.
-                                                                </a> 
-                                                                <a href="https://github.com/Developer-Autodesk/workflow-wpf-view.and.data.api" 
-                                                                    class="list-group-item">
-                                                                <i class="fa fa-file-code-o fa-2x pull-left"></i>
-                                                                .NET WPF - Desktop<br>
-                                                                A WPF(Windows Presentation Foundation) sample that demonstrates the capabilities of Autodesk View and Data API.
-                                                                </a>
-                                                                <a href="https://github.com/Developer-Autodesk/workflow-dotnet-winform-view.and.data.api"
-                                                                    class="list-group-item">
-                                                                <i class="fa fa-file-code-o fa-2x pull-left"></i>
-                                                                .NET WinForm - Desktop<br>
-                                                                A WinForm desktop application sample demonstrating the partial workflow of using
-                                                                Autodesk View and Data API. This sample can be used as a utility tool to upload/translate your models for the usage of other samples.
-                                                                </a>
-                                                                <a href="https://github.com/Developer-Autodesk/workflow-android-view.and.data.api" 
-                                                                    class="list-group-item">
-                                                                <i class="fa fa-file-code-o fa-2x pull-left"></i>
-                                                                Java Android - Mobile<br>
-                                                                A sample demonstrating the partial workflow of using Autodesk View and Data API.
-                                                                </a>
-                                                                <a href="https://github.com/Developer-Autodesk/workflow-ios-view.and.data.api" 
-                                                                    class="list-group-item">
-                                                                <i class="fa fa-file-code-o fa-2x pull-left"></i>
-                                                                Objective-C iOS - Mobile<br>
-                                                                This is a sample for iOS devices demoing the partial workflow of using Autodesk View and Data API.
-                                                                </a>
-                                                                <a href="https://github.com/Developer-Autodesk/workflow-macos-swift-view.and.data.api" 
-                                                                    class="list-group-item">
-                                                                <i class="fa fa-file-code-o fa-2x pull-left"></i>
-                                                                Swift MacOS - Desktop<br>
-                                                                A MacOS sample demonstrating calling the server-side REST API from Swift.
-                                                                </a>
-                                                                <a href="https://github.com/Developer-Autodesk/workflow-curl-view.and.data.api" 
-                                                                    class="list-group-item">
-                                                                <i class="fa fa-file-code-o fa-2x pull-left"></i>
-                                                                cURL - Command Line<br>
-                                                                A sample demonstrating the workflow of using View and Data API in command line tool.
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                            <p>Here are some other samples, demonstrating the integration with othersystems, such as your own ERP/CRM system, external Database, etc.</p>
-                                                    <div class="row">
-                                                        <div class="col-md-10 col-md-offset-1">
-                                                            <div class="list-group">
-                                                                <a href="https://github.com/Developer-Autodesk/integration-bing-maps-view.and.data.api"
-                                                                    class="list-group-item">
-                                                                <i class="fa fa-puzzle-piece fa-2x pull-left"></i>
-                                                                Bing Maps View Integration<br>
-                                                                A sample integrating Microsoft Bing Maps with Autodesk View and Data API.
-                                                                </a>
-                                                                <!-- <p><a class="btn btn-xs btn-default" href="#" target="_blank">Video</a>  
-                                                                    <a class="btn btn-xs btn-default" href="http://viewer.autodesk.io/bingmapintegration" target="_blank">Demo</a> 
-                                                                    </p>
-                                                                    -->
-                                                                <a href="https://github.com/Developer-Autodesk/integration-mongo-view.and.data.api" 
-                                                                   class="list-group-item">
-                                                                    <i class="fa fa-puzzle-piece fa-2x pull-left"></i>
-                                                                    Node.js + Mongo Integration<br>
-                                                                    Integrates Node.js, MongoDB and View and Data API, storing each object in a database.
-                                                                </a>
-                                                                <a href="https://github.com/Developer-Autodesk/integration-sharepoint-view.and.data.api"
-                                                                    class="list-group-item">
-                                                                <i class="fa fa-puzzle-piece fa-2x pull-left"></i>
-                                                                SharePoint Integration<br>
-                                                                This repository contains files that show how you can upload files
-                                                                and view them inside SharePoint using the Autodesk viewer.
-                                                                </a>
-                                                                <!-- <p><a class="btn btn-xs btn-default" href="#" target="_blank">Video</a>  
-                                                                    <a class="btn btn-xs btn-default" href="#" target="_blank">Demo</a> 
-                                                                    </p> -->
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                            <p>Samples demonstrating the possible usage of view and data API:</p>
-                                                <div class="row">
-                                                    <div class="col-md-10 col-md-offset-1">
-                                                        <div class="list-group">
-                                                            <a href="https://github.com/Developer-Autodesk/client-timeliner-view.and.data.api" 
-                                                                class="list-group-item">
-                                                            <i class="fa fa-file-code-o fa-2x pull-left"></i>
-                                                            Timeliner<br>
-                                                            A sample simulating the Navisworks timeline with a model displayed in the viewer.
-                                                            </a>
-                                                            <!-- <p><a class="btn btn-xs btn-default" href="#" target="_blank">Video</a>  
-                                                                <a class="btn btn-xs btn-default" href="http://viewer.autodesk.io/timeliner" target="_blank">Demo</a> 
-                                                                </p> -->
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                        </div>
-                                                <!-- end other samples -->
-                                                <!-- support -->
-                                        <div class="app-api-section">
-                                            <div id="support" class="app-api-section-heading">
-                                                <h2 class="app-api-section-title first-child">Support</h2>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-4" align="center">
-                                                    <a href="https://developer.autodesk.com/api/view-and-data-api/#api-features">
-                                                    <i class="fa fa-file-text-o fa-5x"></i>
-                                                    <br>Documentation
-                                                    </a>
-                                                    <p class="text-left">The documentation is always the first place you should go when you have problems or it's unclear how to use the API.</p>
-                                                </div>
-                                                <div class="col-md-4" align="center">
-                                                    <a href="http://forums.autodesk.com/t5/view-and-data-api/bd-p/95">
-                                                    <i class="fa fa-users fa-5x"></i>
-                                                    <br>View and Data API Forum</a>
-                                                    <p class="text-left">Need help? Search on forums for similar questions and solutions, or ask your question in a new thread.</p>
-                                                </div>
-                                                <div class="col-md-4" align="center">
-                                                    <a href="http://adndevblog.typepad.com/cloud_and_mobile/">
-                                                    <i class="fa fa-rss fa-5x"></i>
-                                                    <br>ADN DevBlogs</a>
-                                                    <p class="text-left">We share our solutions, tips and our learning experiences on the "ADN Cloud and Mobile DevBlog". Be sure to check it out.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                                <!-- end support -->
-                                        <div class="app-api-section" id="create-app">
-                                            <hr>
-                                            <p align="center"><a href="https://developer.autodesk.com/" class="btn app-btn app-btn-lg app-btn-primary create-app-btn spaces">Create Your App!<span class="bg-icon size-21"><i class="icon ion-chevron-right"></i></span></a></p>
-                                        </div>
 											</div>
 										</div>
 									</div>
