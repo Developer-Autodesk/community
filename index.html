@@ -85,7 +85,8 @@
                                             <li role="presentation"><a href="#fusion360" class="first-child">Fusion 360</a></li>
                                             <li role="presentation"><a href="#recap" class="first-child">ReCap Photo</a></li>
                                             <li role="presentation"><a href="#view-and-data" class="first-child">View and Data API</a></li>
-                                            
+                                            <li role="presentation"><a href="#contact-us" class="first-child">Contact Us</a></li>
+
                                         </ul>
 									</div>
 								</div>
@@ -107,7 +108,9 @@
 												<li role="presentation"><a href="#bim360" data-toggle="collapse" data-target=".navbar-responsive-collapse">BIM 360</a></li>
 												
 												<li role="presentation"><a href="#fusion360" data-toggle="collapse" data-target=".navbar-responsive-collapse">Fusion 360</a></li>
-                                                <li role="presentation"><a href="#recap" data-toggle="collapse" data-target=".navbar-responsive-collapse">ReCap Photo</a></li><li role="presentation"><a href="#view-and-data" data-toggle="collapse" data-target=".navbar-responsive-collapse">View and Data API</a></li>
+                                                <li role="presentation"><a href="#recap" data-toggle="collapse" data-target=".navbar-responsive-collapse">ReCap Photo</a></li>
+                                                <li role="presentation"><a href="#view-and-data" data-toggle="collapse" data-target=".navbar-responsive-collapse">View and Data API</a></li>
+                                                <li role="presentation"><a href="#contact-us" data-toggle="collapse" data-target=".navbar-responsive-collapse">Contact Us</a></li>
                                                 
                                             </ul>
 										</div>
@@ -123,7 +126,9 @@
                                             <div id="the-autodesk-platform" class="app-api-section-heading">
                                                 <h2 class="app-api-section-title first-child">The Autodesk Platform</h2>
                                             </div>
-                                            <p>The Autodesk 360 Web Services platform is a set of Autodesk Cloud Services, APIs and SDKs for developers to create the data, apps, experiences and services that power the future of making things.</p><br/>
+                                            <p>The Autodesk Platform is a set of Cloud Services, APIs and SDKs for developers to create the data, apps, experiences and services that power the future of making things. We're dedicated to supporting our community with the resources you need, from one-one-one support to forums and conferences.</p>
+
+<p>Visit our <a href="https://developer.autodesk.com/">Developer Portal</a> to learn more about the Autodesk Platform.</p><br/>
                                             
                                         
                                         
@@ -357,13 +362,29 @@
                                                 </div>
 
                                             <!-- end icons -->
+                                            
                                             </div>
 
                                         </div>
 
                                         <!-- end View and Data -->    
-                                        
 
+                                      <!-- start contact -->
+                                        <div class="app-api-section">
+                                            <div id="Overview" class="app-api-section-heading">
+                                               <h2 id="contact-us" class="app-api-section-title first-child">Contact Us</h2>
+                                            </div>
+                                            <div>
+                                                <p>We encourage you to ask questions about our APIs through the public forums listed above, as this will allow you to share your knowledge and experience with the members of our developer community. However, if you can't get your answers there, if have any other questions, or if you just want to talk to us, then please don't hesitate to <a href="mailto:forge.help@autodesk.com">email us</a>.</p><br/>
+                                                                                                
+
+
+                                            
+                                            </div>
+
+                                        </div>
+
+                                        <!-- end contact --> 
 											</div>
 										</div>
 									</div>
@@ -412,13 +433,7 @@
                 $("#tabs").tabs();
             });
             $(document).ready(function(){
-                $('.owl-carousel').owlCarousel({
-                    autoPlay: 3000, //Set AutoPlay to 3 seconds
 
-                    items : 4,
-                    itemsDesktop : [1199,3],
-                    itemsDesktopSmall : [979,3]
-                });
 
                 // Adam added it
                 $('[data-clampedwidth]').each(function () {
@@ -436,36 +451,10 @@
                     $(window).resize(resizeFn);
                 });
 
-                //loader stuff
-                var iFrame1Loaded = false;
-                var iFrame2Loaded = false;
 
-                $('#loader').loader();
-
-                function deleteLoader() {
-                    setTimeout(function() {
-                        $('#loader').loader('destroy');
-                        var div = document.getElementById("loaderBackground");
-                        div.parentElement.removeChild(div);
-                    }, 2000);
-                }
-
-                document.getElementById("iFrame1").onload = function() {
-                    iFrame1Loaded = true;
-                    if(iFrame2Loaded) deleteLoader();
-                };
-
-                document.getElementById("iFrame2").onload = function() {
-                    iFrame2Loaded = true;
-                    if(iFrame1Loaded) deleteLoader();
-                };
             });
         </script>
-        <script type="text/javascript">
-            //instantiating the widget
-            var adskViewerWidget = adskViewerWidget("prod");
-            adskViewerWidget.Init('#dropAreaContainer', true);
-        </script>
+
 
         <script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
